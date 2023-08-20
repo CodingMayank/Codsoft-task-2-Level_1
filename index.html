@@ -3,65 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pepsi</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Pepsi</title>
 </head>
 <body>
-    <div id="main">
-        <div id="nav">
-            <h1><i class="ri-menu-fill"></i>Menu</h1>
-            <div id="nav-prt2">
-                <h5>Drinks</h5>
-                <h5>Categories</h5>
-                <h5>Buy Franchise</h5>
-
-                <div id="line"></div>
-        
-                <img src="./assets/pepsi.png" alt="">
-
-                <div id="line"></div>
-
-                <h5>Stores</h5>
-                <h5>Contact</h5>
-                <h5>Our Story</h5>
+    <div class="main">
+        <nav>
+            <div class="navleft">
+                <i class="ri-menu-2-fill"> Menu</i>
             </div>
-            <i class="ri-menu-search-line"></i>
-        </div>
-        <div id="content">
-            <div id="left">
-                <h1>Refresh yourself with a  <span>Pepsi</span> break.</h1>
+            <div class="navcenter">
+                <h4>Franchise</h4>
+                <h4>Stores</h4>
+                <h4>Buy</h4>
+                <div class="line1"></div>
+                <img src="./assets/pepsi.png" alt="pepsi-logo">
+                <div class="line2"></div>
+                <h4>Our Story</h4>
+                <h4>Drinks</h4>
+                <h4>Contacts</h4>
+            </div>
+            <div class="navright">
+                 <i class="ri-search-line"></i>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="left1">
+                <h2>Refresh yourself with a <span>Pepsi</span> break.</h2>
                 <p>I have never even had a sip of alcohol, never have done drugs. The hardest thing I have ever done would be Pepsi.</p>
-                <button><i class="ri-shopping-bag-line"></i>Taste Now</button>
-                <div class="wishlist">
-                    <i class="ri-heart-line"></i>
-                </div>
+                <button><i class="ri-shopping-cart-line"></i> Taste Now </button>
             </div>
-            <div id="center">
-                <div id="center-bg">
-                    <div id="center-bg-img">
-                        <img src="./assets/Picsart_23-08-13_13-59-32-059.png" alt="">
-                    </div>
-                </div>
+            <div class="center1">
+                <img src="./assets/center-logo1.jpg" alt="center-logo">
             </div>
-            <div id="right">
-               <div id="right-elems">
-                <div id="elem1">
-                    <h1>Description</h1>
-                    <i class="ri-add-line"></i>
-                </div>
-                <div id="elem1">
-                    <h1>Nutrients</h1>
-                    <i class="ri-add-line"></i>
-                </div>
-                <div id="elem2">
-                    <h1>Ingredients</h1>
-                    <p>Carbonated Water, High Fructose Corn Syrup, Caramel Color, Sugar, Phosphoric Acid, Caffeine, Citric Acid, Natural Flavor.</p>
-                </div>
-               </div>
+            <div class="right1">
+                <h3 class="hl">Descriptions <i class="ri-add-line" id="uline1"></i></h3>
+                <div class="uline"></div>
+                <h3 class="hl">Nutrients <i class="ri-add-line" id="uline2"></i></h3>
+                <div class="uline"></div>
+                <h3 class="hl2">Ingredients</h3>
+                <p>Carbonated Water, High Fructose Corn Syrup, Caramel Color, Sugar, Phosphoric Acid, Caffeine, Citric Acid, Natural Flavor.</p>
             </div>
-            <img src="./assets/My project (2).png" alt="Pepsi img">
         </div>
-    </div>
+    </div>    
 </body>
 </html>
